@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="197" translatesAutoresizingMaskIntoConstraints="NO" id="vlT-JY-Jxd">
-                                <rect key="frame" x="70" y="282" width="263" height="113"/>
+                                <rect key="frame" x="70" y="282" width="490" height="113"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="82J-O3-Ur2">
-                                        <rect key="frame" x="0.0" y="0.0" width="33" height="113"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="146.5" height="113"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gw-s3-bI1">
-                                                <rect key="frame" x="0.0" y="0.0" width="33" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="146.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="-">
                                                     <backgroundConfiguration key="background">
@@ -35,7 +35,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q5h-Qe-9Rs">
-                                                <rect key="frame" x="0.0" y="41" width="33" height="31"/>
+                                                <rect key="frame" x="0.0" y="41" width="146.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+">
                                                     <backgroundConfiguration key="background">
@@ -48,9 +48,9 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYH-NW-9Lm">
-                                                <rect key="frame" x="0.0" y="82" width="33" height="31"/>
+                                                <rect key="frame" x="0.0" y="82" width="146.5" height="31"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="+">
+                                                <buttonConfiguration key="configuration" style="plain" title="Volume of Cylinder">
                                                     <backgroundConfiguration key="background">
                                                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                         <color key="strokeColor" systemColor="systemOrangeColor"/>
@@ -63,10 +63,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sUJ-0a-lNx">
-                                        <rect key="frame" x="230" y="0.0" width="33" height="113"/>
+                                        <rect key="frame" x="343.5" y="0.0" width="146.5" height="113"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqL-q4-Kzq">
-                                                <rect key="frame" x="0.0" y="0.0" width="33" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="146.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="-">
                                                     <backgroundConfiguration key="background">
@@ -78,7 +78,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DoB-Gw-pnT">
-                                                <rect key="frame" x="0.0" y="41" width="33" height="31"/>
+                                                <rect key="frame" x="0.0" y="41" width="146.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+">
                                                     <backgroundConfiguration key="background">
@@ -91,7 +91,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAU-Wa-3mU">
-                                                <rect key="frame" x="0.0" y="82" width="33" height="31"/>
+                                                <rect key="frame" x="0.0" y="82" width="146.5" height="31"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+">
                                                     <backgroundConfiguration key="background">
