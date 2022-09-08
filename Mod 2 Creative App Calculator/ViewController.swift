@@ -29,5 +29,17 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func actionVolume(_ sender: Any) {
+        
+        outletAnswer.text = String(sqrt(Double(outletTectFieldOne.text ?? "0")!) * Double(outletTextFieldTwo.text ?? "0")! * 3.14 )
+    }
+    
+    
+   
+    @IBAction func actionArea(_ sender: Any) {
+        outletAnswer.text = String(Double(outletTectFieldOne.text ?? "0")! * Double(outletTextFieldTwo.text ?? "0")!)
+    }
+    
+    
 }
 
